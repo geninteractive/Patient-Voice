@@ -77,6 +77,11 @@ nav .navegacion ul li a {
   display: flex;
   align-items: center;
 }
+.play {
+  width: 90px;
+  top: -2.5em;
+  position: relative;
+}
 .entrada {
   padding: 2em;
   height: 200px;
