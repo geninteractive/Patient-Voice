@@ -136,16 +136,21 @@ nav .navegacion ul li a {
   width: 120px;
   border: 1px solid #e26d00;
 }
-.solutions .solution p {
+.solutions .solution p,
+.solutions .solution li {
   font-family: Roboto-Light;
   font-size: 22px;
   color: #2f4b74;
   line-height: 37px;
 }
+.solutions .solution li {
+  margin-left: 2em;
+}
 .bg-about-us {
   background: #2f4b74;
   border-top: #e26d00 solid 10px;
   margin-top: 5em;
+  padding-bottom: 7em;
 }
 .bg-about-us .titulo-seccion {
   margin-bottom: -10em;
