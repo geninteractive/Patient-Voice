@@ -17,7 +17,7 @@
 
 		$mensaje .= "Send:" . date('d/m/Y', time());
 		
-		$para = 'geninteractive@gmail.com';
+		$para = 'ntobar@geninteractivelab.com, geninteractive@gmail.com, ';
 		$asunto = 'Contact from PatienVoice';
 		
 		$mail = mail($para, $asunto, $mensaje, $header);
@@ -45,7 +45,7 @@ setTimeout("location.href = 'index.html';",3000000);
 <body st>
 <div id="server" style="width: 80%; margin: 0 auto; text-align: center;">
 <br><br>
-<h3>Your message has been sent, thank you very much<a href="index.html">Go to home</a></h3>
+<h3>Your message has been sent, thank you very much <a href="index.html">Go to home</a></h3>
 </div>
 </body>
 </html>
