@@ -31,6 +31,7 @@ body {
 }
 .carousel-caption {
   text-align: left;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
 }
 .carousel-caption h2 {
   font-weight: 400;
@@ -41,7 +42,7 @@ body {
 }
 .carousel-caption p {
   font-weight: 100;
-  font-size: 24px;
+  font-size: 28px;
   color: #ffffff;
   margin-bottom: 5em;
 }
@@ -92,16 +93,12 @@ nav .navegacion ul li a {
   -webkit-box-shadow: 0px 0px 80px -17px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 80px -17px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 80px -17px rgba(0, 0, 0, 0.75);
-  background-image: url(images/entrada.png);
-  background-blend-mode: multiply;
-  background-size: cover;
-  background-position: 0 650px;
 }
 .entrada .intro {
   padding: 1em;
 }
 .entrada h4 {
-  font-family: Roboto-LightItalic;
+  font-family: 'Roboto', sans-serif;
   font-weight: 100;
   font-size: 25px;
   color: #FFFFFF;
@@ -112,7 +109,8 @@ nav .navegacion ul li a {
   margin: 3em 0em 4em 0em;
 }
 .titulo-seccion h3 {
-  font-family: Roboto-Bold;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
   font-size: 30px;
   color: #2f4b74;
   letter-spacing: 5.11px;
@@ -125,11 +123,11 @@ nav .navegacion ul li a {
   background: #e26d00;
 }
 .solutions .solution h3 {
-  font-family: Roboto-Light;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
   font-size: 33px;
   color: #2f4b74;
-  line-height: 39px;
-  margin-top: 1em;
+  margin-top: -3px;
 }
 .solutions .solution .line {
   margin-bottom: 2em;
@@ -138,8 +136,8 @@ nav .navegacion ul li a {
 }
 .solutions .solution p,
 .solutions .solution li {
-  font-family: Roboto-Light;
-  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
   color: #2f4b74;
   line-height: 37px;
 }
@@ -163,13 +161,17 @@ nav .navegacion ul li a {
   margin-bottom: 4em;
 }
 .bg-about-us p {
-  font-family: Roboto-Light;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
   font-size: 22px;
   color: #FFFFFF;
   line-height: 37px;
 }
 .bg-about-us .item img {
   margin: 3em 0;
+}
+.bg-about-us .item em {
+  text-decoration: underline;
 }
 .bg-contact-us {
   background: #ECECEC;
@@ -179,7 +181,7 @@ nav .navegacion ul li a {
 .bg-contact-us textarea,
 .bg-contact-us label,
 .bg-contact-us button {
-  font-family: Roboto-Light;
+  font-family: 'Roboto', sans-serif;
   font-size: 22px;
   color: #2f4b74;
   line-height: 37px;
@@ -197,9 +199,17 @@ nav .navegacion ul li a {
 .footer {
   background: #2f4b74;
   padding: 1.5em 0 .8em 0;
-  font-family: Roboto-Light;
+  font-family: 'Roboto', sans-serif;
   font-size: 22px;
   color: #c3d2e9;
+}
+@media screen and (max-width: 992px) {
+  .solutions {
+    margin: 4em 0;
+  }
+  .footer p {
+    text-align: center;
+  }
 }
 @media screen and (max-width: 483px) {
   .carousel-caption h2 {
